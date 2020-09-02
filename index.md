@@ -1,3 +1,12 @@
+## maDG Notes
+
+### Testing Code Coverage
+
+1. Compile with `-DENABLE_CODE_COVERAGE=ON`
+2. Run any set of tests
+3. From the compile/run directory, run `gcovr . -r ../maDG --html coverage.html`.
+
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/mlohry/mlohry.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
